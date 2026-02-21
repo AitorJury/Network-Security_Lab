@@ -1,0 +1,33 @@
+# --- Java Compiled Files ---
+*.class
+bin/
+*/bin/
+
+# --- Log files and dynamic data ---
+# Ignoramos los archivos de datos generados en las simulaciones para que el repo esté limpio
+*.log
+ranking.txt
+registro_jamones.txt
+descarga_ftp_log.txt
+alumnos/*.txt
+src/alumnos/*.txt
+
+# --- IDE specific files ---
+# Visual Studio Code
+.vscode/
+.history/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
