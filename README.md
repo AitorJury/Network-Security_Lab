@@ -18,26 +18,26 @@ Este repositorio constituye un laboratorio técnico donde se exploran y resuelve
 ## 🛠️ Detalles de los Módulos
 
 ### 1. HttpSecureProject (Servicios en Red y Seguridad)
-[cite_start]Ecosistema robusto de servicios basado en arquitectura Cliente-Servidor[cite: 380].
-* [cite_start]**Seguridad Avanzada:** Implementación de hashing **SHA-256** con **Salting** único por usuario para mitigar ataques de diccionario[cite: 434, 435].
-* **Prevención de Inyecciones:** Uso estricto de `PreparedStatement` para neutralizar ataques de SQL Injection en MySQL[cite: 436].
-* [cite_start]**Concurrencia Eficiente:** Servidor no bloqueante mediante `ThreadPoolExecutor` para gestionar múltiples sesiones simultáneas[cite: 430, 431].
-* [cite_start]**Integración FTP:** Cliente especializado para transferencia de recursos mediante protocolos estándar[cite: 380, 411].
+Ecosistema robusto de servicios basado en arquitectura Cliente-Servidor.
+* **Seguridad Avanzada:** Implementación de hashing **SHA-256** con **Salting** único por usuario para mitigar ataques de diccionario.
+* **Prevención de Inyecciones:** Uso estricto de `PreparedStatement` para neutralizar ataques de SQL Injection en MySQL.
+* **Concurrencia Eficiente:** Servidor no bloqueante mediante `ThreadPoolExecutor` para gestionar múltiples sesiones simultáneas.
+* **Integración FTP:** Cliente especializado para transferencia de recursos mediante protocolos estándar.
 
 ### 2. Concurrency_Mastery (Simulación de Suministro)
-[cite_start]Resolución del problema clásico del **Productor-Consumidor** aplicado a una cadena de suministro industrial[cite: 8, 10].
-* **Sincronización:** Uso de `synchronized`, `wait()` y `notifyAll()` para garantizar la integridad de los datos en un buffer compartido de capacidad limitada[cite: 11, 28].
-* [cite_start]**Gestión FIFO:** Implementación de una cola de procesamiento estricta donde los elementos se producen y consumen en orden numérico exacto[cite: 142, 151].
+Resolución del problema clásico del **Productor-Consumidor** aplicado a una cadena de suministro industrial.
+* **Sincronización:** Uso de `synchronized`, `wait()` y `notifyAll()` para garantizar la integridad de los datos en un buffer compartido de capacidad limitada.
+* **Gestión FIFO:** Implementación de una cola de procesamiento estricta donde los elementos se producen y consumen en orden numérico exacto.
 
 ### 3. Multiplayer_TCP_Engine (Mastermind Multijugador)
-[cite_start]Motor de juego de lógica basado en protocolos de capa de aplicación propios sobre **TCP Sockets**[cite: 553, 561].
-* **Soporte Multijugador:** Servidor concurrente capaz de gestionar hasta 10 partidas independientes de forma simultánea[cite: 660].
-* [cite_start]**Persistencia de Datos:** Sistema de ranking global con guardado físico en `ranking.txt` y acceso sincronizado mediante `ConcurrentHashMap`[cite: 562, 668].
+Motor de juego de lógica basado en protocolos de capa de aplicación propios sobre **TCP Sockets**.
+* **Soporte Multijugador:** Servidor concurrente capaz de gestionar hasta 10 partidas independientes de forma simultánea.
+* **Persistencia de Datos:** Sistema de ranking global con guardado físico en `ranking.txt` y acceso sincronizado mediante `ConcurrentHashMap`.
 
 ### 4. System_Process_Management (Gestión de Procesos)
-[cite_start]Aplicación modular para la gestión de datos persistentes con separación total de responsabilidades[cite: 189, 191].
-* **Orquestación de Procesos:** Uso de `ProcessBuilder` para lanzar y coordinar procesos externos encargados del almacenamiento y recuperación de datos[cite: 215, 242].
-* [cite_start]**Persistencia CSV:** Sistema de almacenamiento estructurado en ficheros individuales por registro con validaciones de integridad[cite: 196, 216].
+Aplicación modular para la gestión de datos persistentes con separación total de responsabilidades.
+* **Orquestación de Procesos:** Uso de `ProcessBuilder` para lanzar y coordinar procesos externos encargados del almacenamiento y recuperación de datos.
+* **Persistencia CSV:** Sistema de almacenamiento estructurado en ficheros individuales por registro con validaciones de integridad.
 
 ---
 
